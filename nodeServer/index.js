@@ -1,8 +1,8 @@
 const { Server } = require("socket.io");
-
+const PORT = process.env.PORT || 8000;
 const io = new Server(8000, {
     cors: {
-        origin: "http://127.0.0.1:5500",
+        origin: "http://rahidmolla.github.io",
         methods: ["GET", "POST"]
     }
 });

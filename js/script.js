@@ -1,4 +1,4 @@
-const socket = io('http://localhost:8000');
+const socket = io('https://talksy-real-time-chat-app-7aa2.onrender.com');
 
 const form = document.getElementById('send-container');
 const messageInput = document.getElementById('messageInp');
